@@ -24,7 +24,7 @@
 .banner_container {
     text-align: right;
     color: white;
-    margin-left: 950px;
+    margin-left: 945px;
     padding: 220px;
 }
 
@@ -40,4 +40,192 @@
     font-weight: 400;
     font-size: 16px;
     padding: 30px 0 30px 30px;
+}
+
+/* something extra with the hunger of EXTRA points */
+
+.my_success {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.new_starts {
+    background-color: lightskyblue;
+    background-image: linear-gradient(to bottom left, rgb(17, 164, 255), rgb(0, 136, 220));
+    padding: 90px;
+    color: white;
+    width: 38%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.new_starts ul {
+    list-style-image: url('../images/icons/list-icon.png');
+}
+
+.success_title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.success_description {
+    color: rgb(220, 220, 220);
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.success_list {
+    margin: 20px 0 8px -20px;
+    font-size: 18px;
+
+}
+
+.my_pic {
+    margin: 0;
+}
+
+
+/* back to given web format */
+
+/* mistakes */
+.my_mistakes {
+    display: flex;
+    justify-content: space-between;
+    padding: 180px;
+}
+
+.mistakes_side-area {
+    width: 40%;
+    padding-right: 80px;
+    margin-top: 220px;
+}
+
+.mistakes_title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 20px;
+
+}
+
+.mistakes_description {
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.mistakes_side-area ul {
+    list-style-image: url('../images/icons/list-icon-2.png');
+}
+
+.mistakes_list {
+    margin-left: -20px;
+    margin-bottom: 8px;
+}
+
+/* My Plans for 2023 */
+.planboxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 280px;
+    text-align: center;
+}
+
+.plans_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.learn_icon,
+.going-to-become_title,
+.going-to-become_description {
+    margin-bottom: 12px;
+}
+
+.going-to-become_title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.going-to-become_description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* gradient area */
+
+.time_for_gradient {
+    background-image: linear-gradient(to right, #005FAC, rgba(0, 95, 172, 0)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    padding: 40px 90px;
+    margin: 80px auto;
+    width: 50%;
+}
+
+.gradient_area_title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+/* footer designs */
+.page_footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 180px;
+}
+
+.left_footer h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.footer_description {
+    color: #e4e4e4;
+    margin: 10px 0;
+    width: 50%;
+}
+
+.social_links {
+    margin: 30px 5px;
+}
+
+/* subscribe button */
+
+.right_footer_form {
+    width: 50%;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+.email_box {
+    border: 1px solid white;
+    padding: 20px 15px;
+    width: 60%;
+    background: none;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.subscribe_button {
+    background: #005FAC;
+    border-radius: 8px;
+    padding: 20px 35px;
+    color: white; 
+    font-weight: 600;
+    font-size: 20px;
+    ;
 }
